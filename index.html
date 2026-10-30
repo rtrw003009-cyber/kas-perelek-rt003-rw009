@@ -13,7 +13,7 @@ main{height:calc(100% - 48px)}iframe{width:100%;height:100%;border:0;background:
 <header>KAS PERELEK RT003 RW009</header>
 <main id="app"><div class="notice">Alamat aplikasi belum dipasang. Admin perlu memasukkan URL web app Google Apps Script yang berakhiran /exec.</div></main>
 <script>
-const GAS_WEB_APP_URL = "GANTI_DENGAN_URL_APPS_SCRIPT_EXEC";
+const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzQDwj9Oq1e6JpxHJIXhhUmvto8S5HOGiXa2_us1wnztLVnsY9Bj5jV2M8KJmegKGQE/exec";
 if (GAS_WEB_APP_URL.startsWith("https://") && GAS_WEB_APP_URL.endsWith("/exec")) {
  document.getElementById("app").innerHTML = '<iframe title="KAS PERELEK RT003 RW009" src="' + GAS_WEB_APP_URL + '" allow="clipboard-read; clipboard-write"></iframe>';
 }
